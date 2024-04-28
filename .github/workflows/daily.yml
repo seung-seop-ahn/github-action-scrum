@@ -1,8 +1,8 @@
 name: Create Daily Standup Discussions
 
 on:
-  schedule:
-    - cron:  '*/2 * * * *' # Runs M-F at 12:01am UTC
+#  schedule:
+#    - cron:  '1 0 * * 1-5' # Runs M-F at 12:01am UTC
 
 jobs:
   create_discussions:
@@ -12,6 +12,6 @@ jobs:
       - uses: MLH-Fellowship/create-standup-discussions@v1.0.1
         env:
           GITHUB_TOKEN: ${{ secrets.GH_ORGANIZATION_TOKEN }}
-#        with:
-#          organization: "Private"
-#          team_slugs: "team-1, team-2"
+        with:
+          organization: "Private"
+          team_slugs: "team-1, team-2"

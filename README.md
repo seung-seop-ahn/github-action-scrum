@@ -2,6 +2,11 @@
 
 > "[Create standup discussions](https://github.com/marketplace/actions/create-standup-discussions)" action test.
 
+## Requirements
+
+- Organizations
+- Activate Settings > General > Discussion
+
 ## Author
 
 👤 **Kevin Ahn**
