@@ -12,6 +12,6 @@ jobs:
       - uses: MLH-Fellowship/create-standup-discussions@v1.0.1
         env:
           GITHUB_TOKEN: ${{ secrets.GH_ORGANIZATION_TOKEN }}
-        with:
-          organization: "Private"
-          team_slugs: "team-1, team-2"
+#        with:
+#          organization: "Private"
+#          team_slugs: "team-1, team-2"
